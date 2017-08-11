@@ -1,0 +1,92 @@
+body {
+    background-color:#fff;;
+}
+nav {
+    height: 90px !important;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+#containerLogo {
+    height: 90px;
+    
+}
+
+#containerLogo > h1{
+    background-image: url(Imagens/CUSTOMER%20logo%20300px.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 72px;
+    width: 300px;
+}
+
+#containerLogo > h1 > span {
+    visibility: hidden;    
+}
+
+img#logo {
+    width: 100%;
+    height: 100% !important;
+}
+
+ul.navbar-end > li {
+    padding-top: 25px;
+    
+}
+
+#home {
+    height: 580px;
+}
+
+#home .content h1 {
+    margin-top: 300px;
+    font-size: 2.5em;
+}
+
+#homeForm {
+    padding-top: 50px;
+}
+
+#quemSomos{
+    background-image:url(Imagens/business-presentation-laptop-desktopVersion.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.gradient {
+    height:488px;
+}
+
+#quemSomos .content p {
+    color: #000;
+    font-size: 1.25em;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+#servicos {
+    background-image:url(Imagens/baner-servicos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#listaServicos {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: -200px;
+}
+
+.listaServicos1, .listaServicos2 {
+    width: 50%;
+}
+
+#finalPage .content {
+    margin-top: -150px;
+}

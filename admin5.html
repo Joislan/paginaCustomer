@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Customer consultoria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="principal.css">
+  <link rel="stylesheet" type="text/css" media="(min-width: 1000px)" href="desktop.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+  
+<body>
+  <nav class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item" id="containerLogo">
+          <h1><span>customer</span></h1>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navMenu" class="navbar-menu">
+         <div class="navbar-start"></div>
+         <ul class="navbar-end">
+            <li><a class="navbar-item" href="index.html">Home</a></li>
+            <li><a class="navbar-item" href="login.html">Login</a></li>
+         </ul>
+      </div>
+  </nav>
+  
+  <div class="columns">
+      <div class="column" id="nomePerfil">
+        <p>Nome do usuário</p>
+      </div>
+  </div>
+  
+  <div class="columns" id="editarPerfilPage">
+      <div class="content">
+          <h3>EDITAR PERFIL</h3>
+      </div>
+      <div class="column" id="formLogin">
+         <form class="content">
+             <div class="field">
+              <label class="label is-small">Tipo</label>
+              <div class="control">
+                <div class="select is-small">
+                  <select>
+                    <option>Cliente</option>
+                    <option>Auditor</option>
+                    <option>Admin</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label is-small">Nome</label>
+              <div class="control has-icons-right">
+                <input class="input is-small" type="text" placeholder="Text input" value="Álvaro Mendonça Aguiar">
+                <span class="icon is-small is-right">
+                  <i class="fa fa-pencil"></i>
+                </span>
+              </div>
+              <p class="help is-info">Editar</p>
+            </div>
+
+            <div class="field">
+              <label class="label is-small">Email</label>
+              <div class="control has-icons-right">
+                <input class="input is-small" type="text" placeholder="Text input" value="alvaroaguiar@gmail.com">
+                <span class="icon is-small is-right">
+                  <i class="fa fa-pencil"></i>
+                </span>
+              </div>
+              <p class="help is-info">Editar</p>
+            </div>
+
+            <div class="field">
+              <label class="label is-small">Senha</label>
+              <div class="control has-icons-right">
+                <input class="input is-small" type="password" placeholder="senha" value="123456">
+                <span class="icon is-small is-right">
+                  <i class="fa fa-pencil"></i>
+                </span>
+              </div>
+              <p class="help is-info">Editar</p>
+            </div>
+                            
+            <label class="label is-small">Empresa</label>
+            <div class="field has-addons is-expanded">
+              <div class="control is-expanded" id="controlAddEmpresa1">
+                <input class="input is-small" type="text" placeholder="Nome da empresa">
+              </div>
+              <div class="control" id="controlAddEmpresa2">
+                <a class="button is-small openModal7" id="addEmpresa">Adicionar</a>
+              </div>
+            </div>
+               
+            <div class="modal modal7" id="modal7">
+                      <div class="modal-background"></div>
+                      <div class="modal-card">
+                        <header class="modal-card-head">
+                          <p class="modal-card-title">Adicionar lojas</p>
+                        </header>
+                        <section class="modal-card-body2">
+                          <form>
+                            <div class="field">
+                              <label class="label">Localização</label>
+                              <div class="control">
+                                <input class="input" type="text" placeholder="Shopping Iguatemi">
+                              </div>
+                            </div>
+                            
+                            <div class="field">
+                              <label class="label">Cidade</label>
+                              <div class="control">
+                                <div class="select">
+                                  <select>
+                                    <option>Fortaleza</option>
+                                    <option>Caucaia</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="field">
+                              <label class="label">Estado</label>
+                              <div class="control">
+                                <div class="select">
+                                  <select>
+                                    <option>Ceará</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </form>
+                        </section>
+                        <footer class="modal-card-foot">
+                          <button class="fechar button">Fechar</button>
+                          <a class="button">Salvar</a>    
+                        </footer>
+                      </div>
+                    </div>              
+            
+            <ul class="listaEmpresas">
+              <li class="nomeEmpresaEditavel">
+                 <div class="control has-icons-right">
+                   <input type="text" class="topoLista" size="42" value="Cod.19 - Bunny´s">
+                   <span class="icon is-small is-right">
+                    <i class="fa fa-pencil"></i>
+                    <i class="fa fa-trash"></i>
+                   </span>
+                 </div>   
+                    <ul class="listaLojas">
+                      <li class="nomeLojaEditavel">
+                        <div class="control has-icons-right">
+                           <input type="text" size="42" value="Cod.1901 - OFF Outlet - Caucaia">
+                           <span class="icon is-small is-right">
+                             <i class="fa fa-pencil"></i>
+                             <i class="fa fa-trash"></i>
+                           </span>
+                        </div>
+                      </li>
+                      <li class="nomeLojaEditavel">
+                        <div class="control has-icons-right">
+                           <input type="text" size="42" value="Cod.1902 - North Shopping - Fortaleza">
+                           <span class="icon is-small is-right">
+                             <i class="fa fa-pencil"></i>
+                             <i class="fa fa-trash"></i>
+                           </span>
+                        </div>
+                      </li>
+                      <li class="nomeLojaEditavel">
+                        <div class="control has-icons-right">
+                           <input type="text" size="42" value="Cod.1903 - Shopping Parangaba - Fortaleza">
+                           <span class="icon is-small is-right">
+                             <i class="fa fa-pencil"></i>
+                             <i class="fa fa-trash"></i>
+                           </span>
+                        </div>
+                      </li>
+                      <li class="nomeLojaEditavel">
+                        <div class="control has-icons-right">
+                           <input type="text" size="42" value="Cod.1904 - Shopping Benfica - Fortaleza">
+                           <span class="icon is-small is-right">
+                             <i class="fa fa-pencil"></i>
+                             <i class="fa fa-trash"></i>
+                           </span>
+                        </div>
+                      </li>
+                    </ul>
+              </li>
+             
+                <li class="nomeEmpresaEditavel">
+                 <div class="control has-icons-right">
+                   <input type="text" class="topoLista" size="42" value="Cod.20 - Polo wear">
+                   <span class="icon is-small is-right">
+                    <i class="fa fa-pencil"></i>
+                    <i class="fa fa-trash"></i>
+                   </span>
+                 </div>   
+                    <ul class="listaLojas">
+                      <li class="nomeLojaEditavel">
+                        <div class="control has-icons-right">
+                           <input type="text" size="42" value="Cod.2001 - OFF Outlet - Caucaia">
+                           <span class="icon is-small is-right">
+                             <i class="fa fa-pencil"></i>
+                             <i class="fa fa-trash"></i>
+                           </span>
+                        </div>
+                      </li>
+                      <li class="nomeLojaEditavel">
+                        <div class="control has-icons-right">
+                           <input type="text" size="42" value="Cod.2002 - North Shopping - Fortaleza">
+                           <span class="icon is-small is-right">
+                             <i class="fa fa-pencil"></i>
+                             <i class="fa fa-trash"></i>
+                           </span>
+                        </div>
+                      </li>
+                      <li class="nomeLojaEditavel">
+                        <div class="control has-icons-right">
+                           <input type="text" size="42" value="Cod.2003 - Shopping Parangaba - Fortaleza">
+                           <span class="icon is-small is-right">
+                             <i class="fa fa-pencil"></i>
+                             <i class="fa fa-trash"></i>
+                           </span>
+                        </div>
+                      </li>
+                      <li class="nomeLojaEditavel">
+                        <div class="control has-icons-right">
+                           <input type="text" size="42" value="Cod.2004 - Shopping Benfica - Fortaleza">
+                           <span class="icon is-small is-right">
+                             <i class="fa fa-pencil"></i>
+                             <i class="fa fa-trash"></i>
+                           </span>
+                        </div>
+                      </li>
+                    </ul>
+              </li>
+            </ul>                                              
+                    
+            <div class="field">
+              <p class="control center">
+                 <button class="button">
+                   <a href="admin4.html">Salvar</a>
+                 </button>
+              </p>
+            </div>                    
+                 
+          </form> 
+      </div>
+  </div>
+      
+  
+  
+                    
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="Javascript.js"></script>
+    
+</body>
+</html>

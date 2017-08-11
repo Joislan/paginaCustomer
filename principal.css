@@ -1,0 +1,593 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color:#fff;
+    font-family: 'Lato',sans-serif;
+    height: 100%;
+}
+nav {
+    background-color: #fff !important;
+    font-weight: 700;
+    
+        
+}
+
+a {
+    color: #fff;
+}
+
+#containerLogo > h1{
+    background-image: url(Imagens/CUSTOMER%20logo%20300px.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    width: 100px;
+    
+}
+
+#containerLogo > h1 > span {
+    visibility: hidden;    
+}
+
+ul.navbar-end > li {
+    text-align: center;
+    
+}
+
+#home {
+    background-color: #fff;
+    height: 580px;
+    background-image: url(Imagens/bg%20page%20960px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#home .content {
+    text-align: center;
+}
+
+#home .content h1 {
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0px 3px 5px black;
+    margin-top: 250px;
+}
+
+#home .content button {
+    background-color: #f7941d;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+}
+
+#homeForm {
+    background-color: #002949;
+    height: 580px;
+    color: #fff;
+    padding: 30px;
+    
+}
+
+#homeForm label {
+    color: #fff;
+}
+
+.content h2, .content h5 {
+    color: #fff;
+}
+.content > h5 > span {
+    color: #f7941d;
+    
+}
+
+.content h2 {
+    margin-top: 10px !important;
+}
+
+#homeForm button {
+    background-color: #f7941d;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#quemSomos{
+    background-image: url(Imagens/business-presentation-laptop.png);
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
+.gradient {
+    height:250px;
+    background: none;
+    }
+
+#quemSomos .column {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#quemSomos .content p {
+    color: #000;
+    font-weight: 500;
+    padding: 30px;
+    background-color: rgba(255, 255, 255,1);
+}
+
+#servicos {
+    background-image:url(Imagens/baner-servicos-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box {
+    background-color: #fff;;
+    margin: 20px;
+    padding-left: 60px;
+}
+
+.listaServicos1 #box1 {
+    background-image: url(Imagens/shopping.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border: 1px solid #004471;
+    box-shadow: 1px 1px 3px black;
+}
+
+.listaServicos1 #box2 {
+    background-image: url(Imagens/pesquisa.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border: 1px solid #004471;
+    box-shadow: 1px 1px 3px black;
+}
+
+.listaServicos1 #box3 {
+    background-image: url(Imagens/auditoria.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border: 1px solid #004471;
+    box-shadow: 1px 1px 3px black;
+}
+
+.listaServicos2 #box4 {
+    background-image: url(Imagens/gerenciamentoProjetos.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border: 1px solid #004471;
+    box-shadow: 1px 1px 3px black;
+}
+
+.listaServicos2 #box5 {
+    background-image: url(Imagens/capacitacao.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border: 1px solid #004471;
+    box-shadow: 1px 1px 3px black;
+}
+
+.listaServicos2 #box6 {
+    background-image: url(Imagens/recrutamento.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border: 1px solid #004471;
+    box-shadow: 1px 1px 3px black;    
+}
+
+.listaServicos1 li a {
+    display: block;
+    color: #000;
+}
+
+.listaServicos2 li a {
+    display: block;
+    color: #000;
+}
+
+.modal1 .modal-card-head {
+    background-image: url(Imagens/shopping.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 70px;
+    display: block;
+}
+
+.modal2 .modal-card-head {
+    background-image: url(Imagens/pesquisa.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 70px;
+    display: block;
+}
+
+.modal3 .modal-card-head {
+    background-image: url(Imagens/auditoria.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 70px;
+    display: block;
+}
+
+.modal4 .modal-card-head {
+    background-image: url(Imagens/gerenciamentoProjetos.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 70px;
+    display: block;
+}
+
+.modal5 .modal-card-head {
+    background-image: url(Imagens/capacitacao.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 70px;
+    display: block;
+}
+
+.modal6 .modal-card-head {
+    background-image: url(Imagens/recrutamento.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 70px;
+    display: block;
+}
+
+.modal-card-body {
+    padding-left: 50px;
+}
+
+.modal-card-body2 {
+    padding: 30px;
+    background-color: #002949;
+}
+
+.modal-card-body ul {
+    list-style:disc;
+}
+
+.modal-card-foot {
+    display: block; 
+    text-align: center;   
+}
+
+.modal-card-foot button {
+    background-color: #f7941d;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    text-align: center;
+}
+
+#clientes {
+    background-image:url(Imagens/parceria-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #1182b1;
+    text-align: center;
+}
+
+#clientes .column .content {
+    margin-bottom: 0;
+}
+
+#clientes .column .content h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.9em;
+    text-shadow: 2px 2px 5px black;
+}
+
+.clientesParceiros {
+    background: none;
+    display: inline-flex;
+    padding: 50px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.cliente a img {
+    margin: 10px;
+    box-shadow: 1px 1px 5px black;
+    padding: 0px;
+}
+
+#finalPage {
+    background-color: #004471;
+    background-image: url(Imagens/bg%20azul%201360px.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+#finalPage .content h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.9em;
+    text-shadow: 2px 2px 5px black;
+}
+
+#finalPage button {
+    background-color: #f7941d;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#footerBody {
+    background-color: #002949 !important;
+    display:flex;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 5px !important;
+    padding-bottom: 20px !important;    
+}
+
+#footerBody p, footer strong {
+    color: #fff;
+    margin-bottom: 0 !important;
+}
+
+#footerBody i {
+    margin-right: 5px;
+    display:inline !important;
+}
+
+#footerBody .container1 {
+    padding-top: 20px;
+}
+
+#footerBody .container2 {
+    padding-top: 20px;
+}
+
+/* ======================================== LOGIN PAGE SETTINGS ==================== */
+
+#loginPage {
+    background-color: #002949;
+    padding: 30px;
+    padding-top: 100px;
+    height: 100%;
+}
+
+#loginPage h3, #indicadoresPage h3, #editarPerfilPage h3 {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#loginButton {
+    text-align: center !important;
+}
+
+#loginPage .button, #editarPerfilPage .button {
+    background-color: #f7941d;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#formLogin label {
+    color: #fff;
+}
+
+#nomePerfil {
+    background-color: #1182b1;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#codLoja {
+    text-align: center;
+    font-weight: 700;
+    padding: 5px;
+}
+
+#auditoriaPage {
+    background-color: #002949;
+    padding: 30px;
+}
+
+#formAuditoria label{
+    color: #fff;
+}
+
+#formAuditoria button {
+    margin-top: 10px;
+    background-color: #f7941d;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+#indicadoresPage {
+    background-color: #002949;
+    padding: 30px;
+    padding-top: 20px;
+    
+}
+
+#loja {
+    text-align: center;
+    padding: 2px;
+    font-weight: 700;
+}
+
+#indicadoresButton {
+    background-color: #f7941d;
+    border: none;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#containerButton {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#indicadorButton {
+    text-align: center;
+    border: none;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#indicadorButton button {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+#gerPerfisButton {
+    text-align: center;
+    border: none;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#gerPerfisButton button {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.gerPerfisOptions {
+    width: 50%;
+}
+
+#addEmpresa {
+    margin-top: 0 !important;
+}
+
+.nomeEmpresa {
+    color: #fff;
+    margin-bottom: 2px !important;
+}
+
+#editarPerfilPage {
+    background-color: #002949;
+    padding: 30px;
+    padding-top: 100px;
+}
+
+#perfilEdit {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.listaEmpresas input {
+    background: none;
+    border: none;
+    color: #fff;    
+}
+
+.nomeEmpresaEditavel {
+    margin-bottom: 15px;
+}
+
+.topoLista {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.listaLojas {
+    list-style: disc;
+}
+
+.nomeEmpresaEditavel i{
+    margin-right: 15px;
+    padding-bottom: 6px;
+}
+
+#campoNomeUsuario {
+    
+}
+
+.visibilidade {
+    visibility: hidden;
+}
+/*================================INDICADORES ========================================*/
+
+#fieldData, #fieldIdade, #fieldClasse, #fieldSexo {
+    display: inline-flex;
+    
+}
+
+#indicadoresPage .separador {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 30px;
+}
+
+#data, #classe {
+    width: auto;
+    margin-left: 10px;
+}
+
+#sexo {
+    margin-left: 20px; 
+}
+
+#idade {
+    margin-left: 15px;
+}
+
+progress {
+    border: none;
+    border-radius:0;
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    color: #000;
+    -webkit-progress-value: background-color: #f7941d;
+    margin-top: 1px;
+    margin-bottom: 7px;
+}
+
+progress::before {
+    content: attr(value)"%";
+    position:relative;
+    bottom: 4px;
+    left: 5px;
+    -webkit-progress-value: background-color: #f7941d;    
+}
+
+progress::-webkit-progress-bar {
+    background-color: #fff;
+}
+
+progress:before-webkit-progress-value {
+    background-color: #f7941d;
+}
+
+progress::-moz-progress-bar {
+    background-color: #f7941d;
+}
+
+.englobaBarra {
+    margin-bottom: 25px;
+}
+
+.englobaBarra label{
+    color: #fff;
+    margin-bottom: 0 !important;
+}
+

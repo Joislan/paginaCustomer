@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Customer consultoria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="principal.css">
+  <link rel="stylesheet" type="text/css" media="(min-width: 1000px)" href="desktop.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+  
+<body onload="barra1(), barra2(), barra3(), barra4(), barra5(), barra6(), barra7(), barra8(), barra9(), barra10()">
+  <nav class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item" id="containerLogo">
+          <h1><span>customer</span></h1>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navMenu" class="navbar-menu">
+         <div class="navbar-start"></div>
+         <ul class="navbar-end">
+            <li><a class="navbar-item" href="index.html">Home</a></li>
+            <li><a class="navbar-item" href="login.html">Login</a></li>
+         </ul>
+      </div>
+  </nav>
+  
+  <div class="columns">
+      <div class="column" id="nomePerfil">
+        <p>Nome do usuário</p>
+      </div>
+  </div>
+  
+  <div class="columns">
+      <div class="column" id="loja">
+        <p>Bunny´s | Outlet - Caucaia</p>
+      </div>
+  </div>
+  
+  <div class="columns" id="indicadoresPage">
+      <div class="column" id="formLogin">
+          <div class="content">
+            <h3>INDICADORES</h3>
+          </div>
+          <form class="content">
+             <div class="field is-horizontal" id="fieldData">
+              <div class="field-label is-small">
+                <label class="label">Data</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <div class="control">
+                    <input class="input is-small" type="date" id="data" size="10" placeholder="Small sized input">
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <field class="englobaBarra field">
+              <label for="myBar1" class="label">Conversão de vendas</label>
+              <progress id="myBar1" class="progresso" value="0" max="100"></progress>
+            </field>
+            
+            <field class="englobaBarra field">
+              <label class="label">Ticket médio</label>
+              <div class="control has-icons-left">
+                <input class="input is-small" type="number" size="7" value="235.00">
+                <span class="icon is-small is-left">
+                  <i class="fa fa-usd"></i>
+                </span>
+               </div>    
+            </field>
+                                                                                                                                                                                                                        
+            <p class="separador">Motivos de não conversão</p>  
+                  
+            <field class="englobaBarra field">
+              <label for="myBar2" class="label">Cor</label>
+              <progress id="myBar2" class="progresso" value="0" max="100" ></progress>
+            </field>
+            
+            <field class="englobaBarra field">
+              <label for="myBar3" class="label">Especulação</label>
+              <progress id="myBar3" class="progresso" value="0" max="100" ></progress>
+            </field>                     
+                                                      
+            <field class="englobaBarra field">
+              <label for="myBar4" class="label">Falta do produto</label>
+              <progress id="myBar4" class="progresso" value="0" max="100" ></progress>
+            </field>
+                                                                                                                                                                                   
+            <field class="englobaBarra field">
+              <label for="myBar5" class="label">Modelo</label>
+              <progress id="myBar5" class="progresso" value="0" max="100" ></progress>
+            </field>
+            
+            <field class="englobaBarra field">
+              <label for="myBar6" class="label">Cliente não abordado</label>
+              <progress id="myBar6" class="progresso" value="0" max="100" ></progress>
+            </field> 
+            
+            <field class="englobaBarra field">
+              <label for="myBar7" class="label">Preço</label>
+              <progress id="myBar7" class="progresso" value="0" max="100" ></progress>
+            </field>   
+            
+            <field class="englobaBarra field">
+              <label for="myBar8" class="label">Tamanho</label>
+              <progress id="myBar8" class="progresso" value="0" max="100" ></progress>
+            </field>         
+             
+            <field class="englobaBarra field">
+              <label for="myBar9" class="label">Troca</label>
+              <progress id="myBar9" class="progresso" value="0" max="100" ></progress>
+            </field>                           
+            
+            <field class="englobaBarra field">
+              <label for="myBar10" class="label">Venda não finalizada</label>
+              <progress id="myBar10" class="progresso" value="0" max="100" ></progress>
+            </field>                                                                               
+            <p class="separador">Perfil cliente +</p>                      
+            <div class="field is-horizontal" id="fieldIdade">
+              <div class="field-label is-small">
+                <label class="label">Idade</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control" id="idade">
+                    <input class="input is-small" type="text" value="31 a 50">
+                  </p>
+                </div>
+              </div>
+            </div>                                                       
+            <div class="field is-horizontal" id="fieldClasse">
+              <div class="field-label is-small">
+                <label class="label">Classe</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control" id="classe">
+                    <input class="input is-small" type="text" value="B">
+                  </p>
+                </div>
+              </div>
+            </div>
+                                   
+            <div class="field is-horizontal" id="fieldSexo">
+              <div class="field-label is-small">
+                <label class="label">Sexo</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control" id="sexo">
+                    <input class="input is-small" type="text" value="Feminino">
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <p class="separador">Perfil cliente -</p>                      
+            <div class="field is-horizontal" id="fieldIdade">
+              <div class="field-label is-small">
+                <label class="label">Idade</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control" id="idade">
+                    <input class="input is-small" type="text" value="Até 20 anos">
+                  </p>
+                </div>
+              </div>
+            </div>                                                       
+            <div class="field is-horizontal" id="fieldClasse">
+              <div class="field-label is-small">
+                <label class="label">Classe</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control" id="classe">
+                    <input class="input is-small" type="text" value="C">
+                  </p>
+                </div>
+              </div>
+            </div>
+                                   
+            <div class="field is-horizontal" id="fieldSexo">
+              <div class="field-label is-small">
+                <label class="label">Sexo</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control" id="sexo">
+                    <input class="input is-small" type="text" value="Masculino">
+                  </p>
+                </div>
+              </div>
+            </div>                                                                                                                                                                                                                                             
+            <div class="field">
+              <p class="control" id="containerButton">
+                <button class="button" id="indicadoresButton">
+                  <a href="cliente1.html">voltar</a>
+                </button>
+              </p>
+            </div> 
+          </form>
+      </div>
+  </div>
+      
+  
+  
+                    
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="Javascript.js"></script>
+    
+</body>
+</html>
