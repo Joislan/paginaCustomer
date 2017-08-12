@@ -81,7 +81,6 @@ $('.modal-background, .fechar').on('click', function() {
    $('.modal6').removeClass('is-active'); 
 });
 
-<<<<<<< HEAD
 $('.openModal7').on('click', function() {
    $('.modal7').addClass('is-active'); 
 });
